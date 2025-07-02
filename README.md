@@ -30,11 +30,13 @@ with sr.Microphone(device_index=2) as source:
 
 You may need to adjust the device_index in your listen() function to match your system’s microphone. To find your device index, you can run this snippet:
 
+```
 import speech_recognition as sr
 
 for index, name in enumerate(sr.Microphone.list_microphone_names()):
     print(f"Microphone with index {index}: {name}")
 
+```
     Troubleshooting
 The assistant requires an active internet connection for Google’s speech recognition.
 
