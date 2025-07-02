@@ -37,7 +37,8 @@ for index, name in enumerate(sr.Microphone.list_microphone_names()):
     print(f"Microphone with index {index}: {name}")
 
 ```
-    Troubleshooting
+
+Troubleshooting
 The assistant requires an active internet connection for Google’s speech recognition.
 
 Adjust microphone sensitivity parameters in listen() if speech recognition is inconsistent.
